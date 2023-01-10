@@ -1,0 +1,43 @@
+body
+{
+    background: black;
+}
+
+.container
+{
+    position: relative;
+    height: 275px;
+    width: 425px;
+    margin: 100px auto 0 auto;
+    border: 5px solid white;
+}
+
+.container img
+{
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.name
+{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    right: -20px;
+    width: 120px;
+    line-height: 30px;
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 5px solid rgb(3, 138, 86);
+    border-radius: 25px;
+}
+
+#rick
+{
+    top: 20px;
+}
+
+#sanchez {
+    top: 85px;
+}
