@@ -1,8 +1,3 @@
-*
-{
-    box-sizing: border-box;
-}
-
 body
 {
     background: black;
@@ -14,13 +9,13 @@ body
     height: 275px;
     width: 425px;
     margin: 100px auto 0 auto;
+    border: 5px solid white;
 }
 
 .container img
 {
     height: 275px;
-    width: 425px;
-    border: 5px solid white;
+    width: 100%;
     object-fit: cover;
 }
 
